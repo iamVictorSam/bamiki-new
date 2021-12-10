@@ -1,0 +1,24 @@
+targets:
+  $default:
+    builders:
+      artemis:
+        options:
+          schema_mapping:
+            - schema: lib/graphql/schema.graphqls
+              queries_glob: lib/graphql/queries/cafecito.query.graphql
+              output: lib/graphql/cafecito_api.dart
+            - schema: lib/graphql/schema.graphqls
+              queries_glob: lib/graphql/queries/dm.query.graphql
+              output: lib/graphql/dm_api.dart
+            - schema: lib/graphql/schema.graphqls
+              queries_glob: lib/graphql/queries/user.query.graphql
+              output: lib/graphql/user_api.dart
+          scalar_mapping:
+            - custom_parser_import: 'package:bamiki/graphql/coercers.dart'
+              graphql_type: Time
+              dart_type: DateTime
+              use_custom_parser: true
+            - custom_parser_import: 'package:bamiki/graphql/coercers.dart'
+              graphql_type: Upload
+              dart_type: MultipartFile
+              use_custom_parser: true

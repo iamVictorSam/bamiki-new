@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "597272004968",
+    "project_id": "bamiki-notifications-fed8c",
+    "storage_bucket": "bamiki-notifications-fed8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597272004968:android:97a598fef60ea218a9aedd",
+        "android_client_info": {
+          "package_name": "com.ril.bamiki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597272004968-lsi593j5atp4l9ffjmdqn34tkpolfbhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ril.bamiki",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "597272004968-0hcu0hd26m1vonvd02564cdnna1lmuvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7qZnsZ5Y8IH4Zs0LUNk1vJ1-AOkp_x4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597272004968-0hcu0hd26m1vonvd02564cdnna1lmuvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
